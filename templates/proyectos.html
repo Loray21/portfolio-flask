@@ -1,0 +1,38 @@
+<section class="container p-5" id="proyectos">
+    <h2 class="text-center fw-bold">Mis Proyectos</h2>
+    <hr class="mb-5">
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+            <div class="card">
+                <img src="{{ url_for('static', filename='img/proyectos/sitiodoc.png') }}" alt="Imagen del proyecto" class="d-block mx-lg-auto img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">Sitio propio de documentacíon</h5>
+                    <p class="card-text">Este es un proyecto que utiliza la tecnologia mkdocs. Basicamente es un framework que utiliza languaje markdown y 
+                        que permite armar un sito estatico con todos las documentaciones que sean .md. Me parece una idea simple pero a su vez
+                        increible ya que hoy en dia md es un estandard de documentacion y volcarlo en un sitio rapidamente es muy poderoso como 
+                        fuente de documentación principal.
+                    </p>
+                    <a href="https://loray21.github.io/docs/" class="nav-link text-primary">Link aquí.</a>
+                </div>  
+            </div>
+        </div>
+
+
+        
+        <div class="col">
+            <div class="card">
+                <img src="{{ url_for('static', filename='img/porto.png') }}" alt="Imagen del proyecto" class="d-block mx-lg-auto img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">Porto Estudio</h5>
+                    <p class="card-text">Sistema de Membresías para Peluquería, Desarrollado con wordpress</p>
+                    <a href="https://portoacademia.com/" class="nav-link text-primary">Link aquí.</a>
+                </div>  
+                
+            </div>
+        </div>
+
+        
+    </div>
+    </section>
